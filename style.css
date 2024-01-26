@@ -2,13 +2,13 @@
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
+    scroll-behavior: smooth;
 
 }
 
 .dump {
     height: 65px;
     width: 45%;
-
     color: #1a202c;
 
 }
@@ -88,6 +88,10 @@
     margin-top: 30px;
     margin-left: 30px;
     border-radius: 5px;
+    
+}
+.aboutme button:hover{
+    background-image: linear-gradient(to bottom right, rgb(87, 202, 202), rgb(65, 157, 157));
 }
 
 .aboutme i {
@@ -183,8 +187,11 @@
     /* background-color: #101124; */
     background-color: #4FD1C5;
     margin-top: 25px;
+    border-radius: 5px;
 }
-
+.innerbox2 button:hover{
+    background-image: linear-gradient(to bottom right, rgb(87, 202, 202), rgb(65, 157, 157));
+}
 
 .extra {
     height: 450px;
@@ -720,4 +727,8 @@
     justify-content: center;
     align-items: center;
     font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: #1a202c;
 }
