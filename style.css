@@ -10,6 +10,7 @@
     height: 65px;
     width: 45%;
     color: #1a202c;
+   
 
 }
 
@@ -513,6 +514,7 @@
     height: 300px;
     background-image: url("pro2.gif");
     background-size: cover;
+    /* opacity: 0.5; */
 
 }
 
